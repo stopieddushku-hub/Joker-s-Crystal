@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="theme-color" content="#0b0f1a" />
-  <title>Developer Hub 975 — Joker’s Crystal Rush</title>
-  <meta name="description" content="Official developer page for Joker’s Crystal Rush by Developer hub 975. Privacy-first, no ads, no tracking." />
+  <title>Privacy Policy — Joker’s Crystal Rush</title>
+  <meta name="description" content="Privacy Policy for Joker’s Crystal Rush. No data collection, no tracking, no sharing." />
 
   <style>
     :root{
@@ -41,7 +41,6 @@
       overflow-x:hidden;
     }
 
-    /* Top glow border */
     .topline{
       position:fixed; inset:0 0 auto 0; height:1px; z-index:20;
       background: linear-gradient(90deg, transparent, rgba(0,212,255,.55), rgba(139,92,255,.55), rgba(255,61,154,.55), transparent);
@@ -50,7 +49,6 @@
       pointer-events:none;
     }
 
-    /* Canvas background */
     #fx{
       position:fixed; inset:0; z-index:0;
       width:100%; height:100%;
@@ -150,8 +148,8 @@
       align-items:stretch;
     }
     @media (max-width: 920px){
-      .hero{grid-template-columns:1fr; }
-      header{position:relative;}
+      .hero{grid-template-columns:1fr}
+      header{position:relative}
     }
 
     .card{
@@ -169,14 +167,15 @@
 
     .title{
       margin:0 0 8px;
-      font-size: 26px;
-      letter-spacing: .2px;
+      font-size:26px;
+      letter-spacing:.2px;
       line-height:1.15;
     }
+
     .subtitle{
       margin:0;
       color:var(--muted);
-      font-size: 14px;
+      font-size:14px;
       line-height:1.6;
     }
 
@@ -184,20 +183,23 @@
       margin-top:14px;
       display:flex; flex-wrap:wrap; gap:10px;
     }
+
     .badge{
-      padding: 8px 10px;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,.12);
+      padding:8px 10px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.12);
       background: rgba(0,0,0,.25);
-      font-size: 12px;
+      font-size:12px;
       color: rgba(255,255,255,.78);
       display:inline-flex; gap:8px; align-items:center;
     }
+
     .badge i{
       width:10px;height:10px;border-radius:99px; display:inline-block;
       background: rgba(53,242,166,.95);
       box-shadow: 0 0 14px rgba(53,242,166,.35);
     }
+
     .badge.warn i{background: rgba(255,209,102,.95); box-shadow: 0 0 14px rgba(255,209,102,.28)}
     .badge.pink i{background: rgba(255,61,154,.95); box-shadow: 0 0 14px rgba(255,61,154,.28)}
 
@@ -207,17 +209,19 @@
       gap:14px;
       margin-top:14px;
     }
+
     @media (max-width: 720px){
       .grid{grid-template-columns:1fr}
     }
 
     .kpi{
       display:flex; gap:12px; align-items:flex-start;
-      padding: 14px 14px;
+      padding:14px 14px;
       background: rgba(255,255,255,.05);
-      border: 1px solid rgba(255,255,255,.10);
-      border-radius: 16px;
+      border:1px solid rgba(255,255,255,.10);
+      border-radius:16px;
     }
+
     .kpi .num{
       font-family: var(--mono);
       font-weight: 800;
@@ -230,15 +234,18 @@
       background: rgba(0,0,0,.25);
       border: 1px solid rgba(255,255,255,.08);
     }
-    .kpi h3{margin:0; font-size: 13px; letter-spacing:.15px}
-    .kpi p{margin:6px 0 0; color:var(--muted); font-size: 13px; line-height:1.55}
 
-    .side .inner{padding: 18px 18px}
+    .kpi h3{margin:0; font-size:13px; letter-spacing:.15px}
+    .kpi p{margin:6px 0 0; color:var(--muted); font-size:13px; line-height:1.55}
+
+    .side .inner{padding:18px 18px}
+
     .miniTitle{
       margin:0;
-      font-size: 14px;
+      font-size:14px;
       letter-spacing:.2px;
     }
+
     .mono{
       font-family: var(--mono);
       color: rgba(255,255,255,.80);
@@ -253,27 +260,31 @@
 
     .actions{
       display:flex; flex-wrap:wrap; gap:10px;
-      margin-top: 14px;
+      margin-top:14px;
     }
+
     .btn{
       appearance:none; border:0; cursor:pointer;
-      border-radius: 16px;
-      padding: 12px 12px;
+      border-radius:16px;
+      padding:12px 12px;
       color: rgba(255,255,255,.92);
-      font-weight: 650;
-      font-size: 13px;
-      letter-spacing: .15px;
+      font-weight:650;
+      font-size:13px;
+      letter-spacing:.15px;
       background: linear-gradient(135deg, rgba(0,212,255,.18), rgba(139,92,255,.18));
       border: 1px solid rgba(255,255,255,.14);
       transition: transform .15s ease, filter .15s ease, background .15s ease, border-color .15s ease;
       display:inline-flex; align-items:center; gap:10px;
       text-decoration:none;
     }
+
     .btn:hover{transform: translateY(-1px); filter: brightness(1.06)}
     .btn:active{transform: translateY(0px) scale(.99)}
+
     .btn.secondary{
       background: rgba(255,255,255,.06);
     }
+
     .btn .pill{
       font-family: var(--mono);
       font-size: 11px;
@@ -284,37 +295,42 @@
       color: rgba(255,255,255,.78);
     }
 
+    .list{
+      margin:16px 0 0;
+      padding:0;
+      list-style:none;
+      display:grid;
+      gap:12px;
+    }
+
+    .list li{
+      padding:14px;
+      background: rgba(255,255,255,.05);
+      border:1px solid rgba(255,255,255,.10);
+      border-radius:16px;
+      color:var(--muted);
+      line-height:1.6;
+      font-size:14px;
+    }
+
+    .list li strong{
+      display:block;
+      margin-bottom:6px;
+      color:rgba(255,255,255,.92);
+      font-size:13px;
+      letter-spacing:.15px;
+    }
+
     footer{
-      margin-top: 18px;
-      padding: 18px 10px 0;
+      margin-top:18px;
+      padding:18px 10px 0;
       color: rgba(255,255,255,.56);
-      font-size: 12px;
+      font-size:12px;
       text-align:center;
     }
+
     footer a{color: rgba(255,255,255,.78); text-decoration:none}
     footer a:hover{text-decoration:underline}
-
-    .toast{
-      position: fixed;
-      left: 50%;
-      bottom: 16px;
-      transform: translateX(-50%);
-      background: rgba(10,14,26,.92);
-      border: 1px solid rgba(255,255,255,.12);
-      padding: 10px 12px;
-      border-radius: 999px;
-      color: rgba(255,255,255,.85);
-      font-size: 12px;
-      box-shadow: var(--shadow);
-      z-index: 30;
-      opacity: 0;
-      pointer-events:none;
-      transition: opacity .2s ease, transform .2s ease;
-    }
-    .toast.show{
-      opacity: 1;
-      transform: translateX(-50%) translateY(-2px);
-    }
   </style>
 </head>
 
@@ -333,7 +349,7 @@
       </a>
 
       <nav class="links" aria-label="Site navigation">
-        <a class="chip" href="privacy.html"><span class="dot"></span>Privacy Policy</a>
+        <a class="chip" href="index.html"><span class="dot"></span>Home</a>
         <a class="chip" href="support.html"><span class="dot"></span>Support</a>
         <a class="chip" href="marketing.html"><span class="dot"></span>Marketing</a>
       </nav>
@@ -344,57 +360,71 @@
     <section class="hero">
       <article class="card">
         <div class="inner">
-          <h2 class="title">Clear developer identity. Clear app intent.</h2>
+          <h2 class="title">Privacy Policy</h2>
           <p class="subtitle">
-            This page is designed for both Google Play reviewers and users.
-            It explains who publishes the app, how support works, and how privacy is handled.
+            Joker’s Crystal Rush is built with privacy as a default. The app does not collect personal data and does not share data with third parties.
           </p>
 
           <div class="badgeRow">
-            <span class="badge"><i></i>No ads</span>
+            <span class="badge"><i></i>No personal data</span>
             <span class="badge"><i></i>No tracking</span>
-            <span class="badge"><i></i>No data collection</span>
-            <span class="badge warn"><i></i>Early-stage indie developer</span>
-            <span class="badge pink"><i></i>Actively improving</span>
+            <span class="badge"><i></i>No analytics</span>
+            <span class="badge warn"><i></i>No ads</span>
+            <span class="badge pink"><i></i>Local-only usage</span>
           </div>
 
           <div class="grid" style="margin-top:16px;">
             <div class="kpi">
               <div class="num">01</div>
               <div>
-                <h3>Developer</h3>
-                <p>Developer hub 975 (independent / solo). I build and maintain Joker’s Crystal Rush myself.</p>
+                <h3>Data collection</h3>
+                <p>No personal data is collected. The app does not use analytics SDKs, advertising SDKs, or tracking identifiers.</p>
               </div>
             </div>
 
             <div class="kpi">
               <div class="num">02</div>
               <div>
-                <h3>Product promise</h3>
-                <p>Simple, transparent experience: no ads, no tracking, and no external data transfer.</p>
+                <h3>Data storage</h3>
+                <p>No data is uploaded to external servers. Any game progress, if present, is stored locally on the device only.</p>
               </div>
             </div>
 
             <div class="kpi">
               <div class="num">03</div>
               <div>
-                <h3>Support</h3>
-                <p>Direct email support and a clear FAQ page. You can contact me and get responses from the developer.</p>
+                <h3>Data sharing</h3>
+                <p>No data is sold, shared, or transferred to third parties. No cross-app tracking is used.</p>
               </div>
             </div>
 
             <div class="kpi">
               <div class="num">04</div>
               <div>
-                <h3>Future monetization</h3>
-                <p>Currently no subscriptions or paid features. In the future, optional purchases may appear (clearly described).</p>
+                <h3>User accounts</h3>
+                <p>No account registration is required to use Joker’s Crystal Rush.</p>
               </div>
             </div>
           </div>
 
+          <ul class="list">
+            <li>
+              <strong>What the app does not do</strong>
+              It does not collect names, email addresses, phone numbers, location data, advertising identifiers, or behavioral analytics.
+            </li>
+            <li>
+              <strong>What may stay on the device</strong>
+              Basic local game progress or settings may remain on the device only and are not transmitted externally.
+            </li>
+            <li>
+              <strong>Policy scope</strong>
+              This page is intended to clearly explain privacy behavior for users and platform reviewers.
+            </li>
+          </ul>
+
           <div class="actions">
             <a class="btn" href="support.html">Open Support <span class="pill">support.html</span></a>
-            <a class="btn secondary" href="privacy.html">Read Privacy Policy <span class="pill">privacy.html</span></a>
+            <a class="btn secondary" href="index.html">Back to Home <span class="pill">index.html</span></a>
             <a class="btn secondary" href="marketing.html">Marketing & Plans <span class="pill">marketing.html</span></a>
           </div>
         </div>
@@ -402,29 +432,37 @@
 
       <aside class="card side">
         <div class="inner">
-          <h3 class="miniTitle">Developer contact</h3>
-          <div class="mono" id="emailBox">stopieddushku@gmail.com</div>
-
-          <div class="actions">
-            <button class="btn" type="button" id="copyEmailBtn">
-              Copy email <span class="pill">one tap</span>
-            </button>
-            <a class="btn secondary" href="mailto:stopieddushku@gmail.com?subject=Joker%E2%80%99s%20Crystal%20Rush%20-%20Support">
-              Email support <span class="pill">mailto:</span>
-            </a>
+          <h3 class="miniTitle">Contact</h3>
+          <div class="mono">
+            Developer: Developer hub 975<br />
+            Email: stopieddushku@gmail.com
           </div>
 
           <div style="margin-top:14px">
-            <h3 class="miniTitle">Quick links</h3>
-            <div class="actions">
-              <a class="btn secondary" href="privacy.html">Privacy Policy</a>
-              <a class="btn secondary" href="support.html">Support URL</a>
-              <a class="btn secondary" href="marketing.html">Marketing URL</a>
+            <h3 class="miniTitle">Policy summary</h3>
+            <div class="mono">
+              No personal data collected<br />
+              No analytics SDKs<br />
+              No advertising SDKs<br />
+              No third-party sharing<br />
+              No accounts required
             </div>
           </div>
 
+          <div class="actions">
+            <a class="btn" href="mailto:stopieddushku@gmail.com?subject=Joker%E2%80%99s%20Crystal%20Rush%20-%20Privacy">
+              Email developer <span class="pill">mailto:</span>
+            </a>
+            <a class="btn secondary" href="index.html">Developer page</a>
+          </div>
+
+          <div style="margin-top:14px">
+            <h3 class="miniTitle">Effective date</h3>
+            <div class="mono"><span id="date"></span></div>
+          </div>
+
           <p class="subtitle" style="margin-top:14px">
-            Tip for reviewers: all relevant pages are accessible in one click and contain consistent identity information.
+            All public pages use the same identity, navigation, and contact information for consistency.
           </p>
         </div>
       </aside>
@@ -433,18 +471,15 @@
     <footer>
       <div>
         © <span id="year"></span> Developer hub 975 — Joker’s Crystal Rush.
-        <span style="opacity:.7">All pages are public and linked for transparency.</span>
+        <span style="opacity:.7">Privacy-first public page.</span>
       </div>
       <div style="margin-top:8px; opacity:.8">
-        <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a> · <a href="marketing.html">Marketing</a>
+        <a href="index.html">Home</a> · <a href="support.html">Support</a> · <a href="marketing.html">Marketing</a>
       </div>
     </footer>
   </main>
 
-  <div class="toast" id="toast" role="status" aria-live="polite">Copied</div>
-
 <script>
-  // ======= Interactive canvas background =======
   const canvas = document.getElementById('fx');
   const ctx = canvas.getContext('2d');
   let w, h, dpr;
@@ -458,10 +493,12 @@
     canvas.style.width = window.innerWidth + 'px';
     canvas.style.height = window.innerHeight + 'px';
   }
+
   window.addEventListener('resize', resize, {passive:true});
   resize();
 
   function rand(min,max){ return Math.random()*(max-min)+min; }
+
   function init(){
     dots.length = 0;
     for(let i=0;i<DOTS;i++){
@@ -473,13 +510,14 @@
       });
     }
   }
+
   init();
 
   function draw(){
     ctx.clearRect(0,0,w,h);
-    // dots
     for(const p of dots){
-      p.x += p.vx; p.y += p.vy;
+      p.x += p.vx;
+      p.y += p.vy;
       if(p.x<0||p.x>w) p.vx*=-1;
       if(p.y<0||p.y>h) p.vy*=-1;
 
@@ -488,11 +526,11 @@
       ctx.fillStyle = `rgba(255,255,255,${p.a})`;
       ctx.fill();
     }
-    // connections
+
     for(let i=0;i<dots.length;i++){
       for(let j=i+1;j<dots.length;j++){
         const a = dots[i], b = dots[j];
-        const dx = a.x-b.x, dy=a.y-b.y;
+        const dx = a.x-b.x, dy = a.y-b.y;
         const dist = Math.sqrt(dx*dx+dy*dy);
         const max = 160*dpr;
         if(dist < max){
@@ -506,38 +544,14 @@
         }
       }
     }
+
     requestAnimationFrame(draw);
   }
+
   draw();
 
-  // ======= UI helpers =======
-  const toast = document.getElementById('toast');
-  function showToast(msg){
-    toast.textContent = msg;
-    toast.classList.add('show');
-    clearTimeout(showToast._t);
-    showToast._t = setTimeout(()=>toast.classList.remove('show'), 1400);
-  }
-
   document.getElementById('year').textContent = new Date().getFullYear();
-
-  // Copy email
-  document.getElementById('copyEmailBtn').addEventListener('click', async ()=>{
-    const email = document.getElementById('emailBox').textContent.trim();
-    try{
-      await navigator.clipboard.writeText(email);
-      showToast('Email copied');
-    }catch(e){
-      // fallback
-      const ta = document.createElement('textarea');
-      ta.value = email;
-      document.body.appendChild(ta);
-      ta.select();
-      document.execCommand('copy');
-      ta.remove();
-      showToast('Email copied');
-    }
-  });
+  document.getElementById('date').textContent = new Date().toISOString().slice(0,10);
 </script>
 </body>
 </html>
